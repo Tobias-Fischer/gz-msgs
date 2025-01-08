@@ -109,7 +109,7 @@ set(GZ_TOOLS_VER 2)
 
 #--------------------------------------
 # Find Tinyxml2
-gz_find_package(TINYXML2 REQUIRED PRIVATE PRETTY tinyxml2)
+gz_find_package(TINYXML2 REQUIRED PRETTY tinyxml2)
 
 #--------------------------------------
 # Find DL if doing relocatable installation
